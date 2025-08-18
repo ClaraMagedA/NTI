@@ -1,0 +1,72 @@
+* {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+.blue{color: #007bff;}
+.bg-grey{color: #4a4a4a;}
+.white{color: #fff;}
+.bg-white{background-color: white;}
+.darkgrey{color: #555;}
+.grey{color: #999;}
+.bg-darkblue{background-color: #1C1E53;}
+.bg-yellow{background-color: #FCD980;}
+
+
+header {
+    padding: 20px;
+    text-align: left;
+}
+.container {
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+    align-items: center;
+    vertical-align: top;
+    display: flex;
+    justify-content: center;
+    height: min-content;
+}
+.card {
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+    padding: 15px;
+    max-height: max-content;
+    max-width: fit-content;
+    align-content: center;
+    }
+.card h2 {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+.card-img {
+    margin: 10px 0;
+    max-width: min-content;
+    max-height: max-content;
+}
+.card .date {
+    font-size: 0.9em;
+}
+.card .read-more {
+    text-decoration: none;
+}
+footer {
+    padding: 20px;
+    text-align: center;
+}
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    align-items: center;
+}
+.footer-links a {
+    text-decoration: none;
+    margin: 5px 0;
+}
+.copyright {
+    font-size: 0.8em;
+    margin-top: 10px;
+    text-align: center;
+}
