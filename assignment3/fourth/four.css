@@ -1,0 +1,120 @@
+/*normalize*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*main classes*/
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.container-fluid {
+    width: 100%;
+}
+
+.img-fluid {
+    max-width: 100%;
+}
+
+.overflow-hidden {
+    overflow: hidden;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.w-25 {
+    width: 25%;
+}
+
+.h-100 {
+    height: 100%;
+}
+
+.text-white {
+    color: #fff;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.d-flex {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.justify-content-evenly {
+    justify-content:space-evenly;
+}
+
+.justify-content-center{
+    justify-content:center;
+}
+
+.dir-rtl {
+    direction: rtl;
+}
+
+.dir-ltr {
+    direction: ltr;
+}
+
+/*main colors*/
+.main-color {
+   color:  #FFFFFF;
+}
+
+.secondary-color {
+   color:#282938 ;
+}
+
+.main-bg {
+  background-color: #1C1E53;
+}
+
+.secondary-bg {
+background-color: #FCD980;
+}
+
+.my-3{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.p-4{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+}
+.px{
+    padding-left: 1rem;
+}
+
+.down{
+    border-radius: 5px;
+}
